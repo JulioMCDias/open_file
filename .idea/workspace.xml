@@ -4,20 +4,33 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84bdaef5-546b-43ab-bc0e-2c49be518ec2" name="Default Changelist" comment="" />
+    <list default="true" id="84bdaef5-546b-43ab-bc0e-2c49be518ec2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/linux/flutter/ephemeral/.plugin_symlinks/open_file/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/linux/flutter/ephemeral/.plugin_symlinks/open_file/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/linux/flutter/ephemeral/.plugin_symlinks/open_file/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/linux/flutter/ephemeral/.plugin_symlinks/open_file/lib/open_file.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/linux/flutter/ephemeral/.plugin_symlinks/open_file/lib/open_file.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/open_file.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/open_file.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="android_10" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1g18znEwgQeAE4q9aDrJJLDWiqK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -37,31 +50,31 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="288" key="GridCell.Tab.0.bottom" timestamp="1598575157361">
+    <state width="1874" height="217" key="GridCell.Tab.0.bottom" timestamp="1598659402532">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1874" height="288" key="GridCell.Tab.0.bottom/350.1080.1366.768/0.24.1920.1056@0.24.1920.1056" timestamp="1598575157361" />
+    <state width="1874" height="217" key="GridCell.Tab.0.bottom/350.1080.1366.768/0.24.1920.1056@0.24.1920.1056" timestamp="1598659402532" />
     <state width="1320" height="186" key="GridCell.Tab.0.bottom/350.1080.1366.768/0.24.1920.1056@350.1080.1366.768" timestamp="1598121114445" />
-    <state width="1874" height="288" key="GridCell.Tab.0.center" timestamp="1598575157361">
+    <state width="1874" height="217" key="GridCell.Tab.0.center" timestamp="1598659402532">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1874" height="288" key="GridCell.Tab.0.center/350.1080.1366.768/0.24.1920.1056@0.24.1920.1056" timestamp="1598575157361" />
+    <state width="1874" height="217" key="GridCell.Tab.0.center/350.1080.1366.768/0.24.1920.1056@0.24.1920.1056" timestamp="1598659402532" />
     <state width="1320" height="186" key="GridCell.Tab.0.center/350.1080.1366.768/0.24.1920.1056@350.1080.1366.768" timestamp="1598121114444" />
-    <state width="1874" height="288" key="GridCell.Tab.0.left" timestamp="1598575157358">
+    <state width="1874" height="217" key="GridCell.Tab.0.left" timestamp="1598659402531">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1874" height="288" key="GridCell.Tab.0.left/350.1080.1366.768/0.24.1920.1056@0.24.1920.1056" timestamp="1598575157358" />
+    <state width="1874" height="217" key="GridCell.Tab.0.left/350.1080.1366.768/0.24.1920.1056@0.24.1920.1056" timestamp="1598659402531" />
     <state width="1320" height="186" key="GridCell.Tab.0.left/350.1080.1366.768/0.24.1920.1056@350.1080.1366.768" timestamp="1598121114444" />
-    <state width="1874" height="288" key="GridCell.Tab.0.right" timestamp="1598575157361">
+    <state width="1874" height="217" key="GridCell.Tab.0.right" timestamp="1598659402532">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1874" height="288" key="GridCell.Tab.0.right/350.1080.1366.768/0.24.1920.1056@0.24.1920.1056" timestamp="1598575157361" />
+    <state width="1874" height="217" key="GridCell.Tab.0.right/350.1080.1366.768/0.24.1920.1056@0.24.1920.1056" timestamp="1598659402532" />
     <state width="1320" height="186" key="GridCell.Tab.0.right/350.1080.1366.768/0.24.1920.1056@350.1080.1366.768" timestamp="1598121114444" />
-    <state width="559" height="130" key="javadoc.popup.new" timestamp="1598124038505">
+    <state width="559" height="130" key="javadoc.popup.new" timestamp="1598659388072">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state width="656" height="130" key="javadoc.popup.new/279.1080.1366.768/0.24.1920.1056@0.24.1920.1056" timestamp="1597271459992" />
-    <state width="559" height="130" key="javadoc.popup.new/350.1080.1366.768/0.24.1920.1056@0.24.1920.1056" timestamp="1598124038505" />
+    <state width="559" height="130" key="javadoc.popup.new/350.1080.1366.768/0.24.1920.1056@0.24.1920.1056" timestamp="1598659388072" />
     <state width="467" height="95" key="javadoc.popup.new/350.1080.1366.768/0.24.1920.1056@350.1080.1366.768" timestamp="1598120949942" />
   </component>
   <component name="XDebuggerManager">

@@ -44,11 +44,12 @@ class OpenFile {
         "type": type.toString().split('.').last,
         "extension": extension,
       });
+    File file = File(fileMap["path"]);
 
     return FileInfo(
       path : fileMap["path"],
-      nameFile: fileMap["nameFile"]?: "asd",
-      size: fileMap["size"],
+      nameFile: fileMap["nameFile"] ?? fileMap["path"].split('/').last,
+      size: fileMap["size"] ?? (await file.length()).toString(),
       file: File(fileMap["path"])
     );
   }
@@ -65,8 +66,8 @@ class OpenFile {
 
     return FileInfo(
       path : fileMap["path"],
-      nameFile: fileMap["nameFile"],
-      size: fileMap["size"],
+      nameFile: fileMap["nameFile"] ?? fileMap["path"].split('/').last,
+      size: fileMap["size"] ?? 0,
       file: File(fileMap["path"])
     );
   }

@@ -30,7 +30,7 @@ class _MyAppState extends State<MyApp> {
     String content;
     try {
       fileInfo = (await OpenFile.openFile(type: FileType.text, extension: "cryp"));
-      content = fileInfo.path+ "***"+ fileInfo.nameFile;
+      content = fileInfo.path+ "***"+ fileInfo.size;
     } on PlatformException {
       content = 'Failed to rum File';
     }
@@ -50,7 +50,7 @@ class _MyAppState extends State<MyApp> {
   Future<void> _createFile() async {
     String content;
     try {
-      fileInfo = (await OpenFile.createFile(FileType.text, "cryp", "newName"));
+      fileInfo = (await OpenFile.createFile(FileType.text, "cryp", "repository"));
       content = await fileInfo.file.readAsString();
     } on PlatformException {
       content = 'Failed to get platform version.';
