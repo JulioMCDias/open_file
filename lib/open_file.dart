@@ -67,7 +67,7 @@ class OpenFile {
     return FileInfo(
       path : fileMap["path"],
       nameFile: fileMap["nameFile"] ?? fileMap["path"].split('/').last,
-      size: fileMap["size"] ?? 0,
+      size: fileMap["size"] ?? "0",
       file: File(fileMap["path"])
     );
   }

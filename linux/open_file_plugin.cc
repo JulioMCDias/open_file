@@ -68,34 +68,15 @@ static FlMethodResponse* show_dialog(OpenFilePlugin* self,
       GTK_FILE_CHOOSER_NATIVE(gtk_file_chooser_native_new(
           title, window, action, default_confirm_button_text, "_Cancel"));
 
-  // value = fl_value_lookup_string(properties, kAllowsMultipleSelectionKey);
-  // if (value != nullptr && fl_value_get_type(value) == FL_VALUE_TYPE_BOOL) {
-  //   gtk_file_chooser_set_select_multiple(GTK_FILE_CHOOSER(dialog),
-  //                                        fl_value_get_bool(value));
-  // }
-
-
-  // value = fl_value_lookup_string(properties, kCanChooseDirectoriesKey);
-  // if (value != nullptr && fl_value_get_type(value) == FL_VALUE_TYPE_BOOL &&
-  //     fl_value_get_bool(value)) {
-  //   gtk_file_chooser_set_action(GTK_FILE_CHOOSER(dialog),
-  //                               GTK_FILE_CHOOSER_ACTION_SELECT_FOLDER);
-  // }
-
-  // value = fl_value_lookup_string(properties, kInitialDirectoryKey);
-  // if (value != nullptr && fl_value_get_type(value) == FL_VALUE_TYPE_STRING) {
-  //   gtk_file_chooser_set_current_folder(GTK_FILE_CHOOSER(dialog),
-  //                                       fl_value_get_string(value));
-  // }
-
 
   FlValue* value = fl_value_lookup_string(properties, "nameFile");
-  if (value != nullptr && fl_value_get_type(value) == FL_VALUE_TYPE_STRING) {
+  FlValue* extension = fl_value_lookup_string(properties, "extension");
+  if (extension != nullptr && fl_value_get_type(extension) == FL_VALUE_TYPE_STRING &&
+  value != nullptr && fl_value_get_type(value) == FL_VALUE_TYPE_STRING) {
     gtk_file_chooser_set_current_name(GTK_FILE_CHOOSER(dialog),
-                                      fl_value_get_string(value));
+    g_strdup_printf("%s.%s", fl_value_get_string(value), fl_value_get_string(extension)));
   }
 
-  FlValue* extension = fl_value_lookup_string(properties, "extension");
   value = fl_value_lookup_string(properties, "type");
 
   if (extension != nullptr && fl_value_get_type(extension) == FL_VALUE_TYPE_STRING &&
